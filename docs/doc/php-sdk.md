@@ -28,3 +28,50 @@ ttlock_ekey 用来记录给用户下发的ekey信息
 
 定时任务帮助订单去清理ekey_delete
  
+
+
+```json
+{
+    "code":0,
+    "result":{
+        "lastUpdateDate":1537103033987,
+        "keyList":[
+            {
+                "date":1536892315000,
+                "specialValue":53473,
+                "lockAlias":"test",
+                "keyStatus":"110401",
+                "endDate":0,
+                "noKeyPwd":"1939493",
+                "keyId":2172865,
+                "lockMac":"C4:54:12:32:3B:D8",
+                "deletePwd":"",
+                "timezoneRawOffset":28800000,
+                "lockId":1264731,
+                "electricQuantity":90,
+                "adminPwd":"OTgsOTYsMTAyLDk2LDEwMywxMDIsOTcsOTYsMTAwLDk3LDQ0",
+                "lockFlagPos":0,
+                "keyboardPwdVersion":4,
+                "aesKeyStr":"4c,27,28,ae,66,82,39,b2,3b,bf,3d,41,78,d7,13,b7",
+                "remoteEnable":2,
+                "lockVersion":{
+                    "showAdminKbpwdFlag":true,
+                    "groupId":1,
+                    "protocolVersion":3,
+                    "protocolType":5,
+                    "orgId":1,
+                    "logoUrl":"",
+                    "scene":2
+                },
+                "userType":"110301",
+                "lockKey":"MTE1LDExNywxMTUsMTEzLDEyMywxMTgsMTEzLDExMywxMTcsMTE1LDYx",
+                "lockName":"M101T_d83b32",
+                "startDate":0,
+                "remarks":"",
+                "keyRight":0
+            }
+        ]
+    },
+    "msg":null
+}
+```
